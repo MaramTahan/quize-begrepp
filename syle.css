@@ -1,0 +1,75 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ 
+}
+body{
+ background-image: url(./img/pixabay1.jpg);
+ background-position:center;
+ background-size: cover;
+ height: 3300px;
+ background-repeat: no-repeat;
+ font-family: 'Abyssinica SIL', serif;
+}
+
+.main-content{
+ background-color: #fff;
+ margin: 5%;
+ height: 2900px;
+ color: black;
+ box-shadow:0 10px 10px 10px rgb(161, 28, 114);
+ padding: 3%;
+ line-height: 1.4em;
+}
+.header .name{
+ font-size: 4rem;
+ color: #fff;
+ text-shadow:6px 4px 4px rgb(161, 28, 114);
+ margin-top: 60px;
+ text-align: center;
+}
+h2{
+ color: rgb(161, 28, 114);
+}
+h3{
+ text-shadow:0 1px 2px rgba(161, 28, 114, 0.504);
+ font-style: italic;
+}
+h4{
+ text-shadow:0 3px 6px rgba(161, 28, 114, 0.504);
+ font-style: italic;
+}
+
+.first-qus{
+ padding-bottom: 10%;
+}
+.second-qus{
+ padding-bottom: 10%;
+}
+.third-qus{
+ padding-bottom: 10%;
+}
+.fourth-qus{
+ padding-bottom: 10%;
+}
+.fifth-qus{
+ padding-bottom: 10%;
+}
+@media screen and (max-width: 600px){
+ body{
+  background-position:center;
+ background-size: cover;
+ height: 3700px;
+ background-repeat: no-repeat;
+ }
+ .main-content{
+  background-color: #fff;
+ margin: 6%;
+ height: 3500px;
+ 
+ }
+ .header .name{
+  font-size: 2rem;
+ }
+}

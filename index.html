@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./syle.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&  family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+ <title>Web Application MVP Quize</title>
+</head>
+<body>
+ <div class="header">
+  <h1 class="name">Web Application MVP Quize</h1>
+ </div>
+ <div class="main-content">
+  <div class="first-qus">
+   <h2> Github flow </h2> <br>
+   <h3> Vad är Github flow? Hur använder man det? Vilka viktiga delar är inkluderade i begreppet?</h3><br>
+   <p>När du arbetar med ett projekt med ett team, oavsett hur många personer detta team har, oavsett om det är två eller flera, måste detta team organisera arbetet för var och en separat, som att lägga till nya funktioner, förbättra projektfunktionaliteten eller något annat relaterat till detta projekt. Och det finns ofta en teamledare för att undvika kaos eller fel som kan uppstå när man inför ändringar i koden från var och en i teamet, det vill säga de ändringar som varje utvecklare eller programmerare gör i koden går direkt till produktion och på så sätt kommer det att vara kaos men i GitHub flow sätt att arbetet blir organiserat så att alla ändringar som görs av teamet riktas till teamledaren. Detta innebär att GitHub flow gör hela processen med att hantera ditt projekt mycket enklare. <br> Github flow kan delas upp i fyra grundläggande steg:<br> <b>1.Skapa Branch:</b> <br> När vi skapar en branch kan alla teammedlemmar lägga till nya funktioner, andra idéer eller fixa en bugg, utan att det påverkar direkt till master branch, och så kan vi se till allt vi vill lägga till och testa dess effektivitet innan det slutligen läggs till master branch. <br> <b>2.Göra ett Commit:</b><br> När ändrar något i projektet kan commit ändringarna till branch, och varje commit åtföljs av ett meddelande som uttrycker denna förändring som har gjorts, och alla ändringar arkiveras med dess historia, så att andra kan följa den. Och eftersom varje commit är en separat förändring från den andra, om det finns något fel i koden, kan hänvisa till den.<br> <b>3.Öppna en Pull Request:</b> <br> Efter att ha gjort Commit kan du öppna Pull Request för att starta diskussionen om Commit som gjorde, det vill säga  kan jämföra två branches. Så när personen accepterar begäran kommer ändringarna att merged. Till exempel, du har en idé eller ett förslag om att ändra något men du är inte säker på att resten av teamet kommer att gilla det, så du skickar en Pull Request till andra och om de gillar ditt förslag kommer de att gå med på merged.<br> <b>4.Granskning av Pull Request/Merging:</b><br> Efter att ha skickat in en Pull Request kan en av teammedlemmarna ha en avvikande åsikt eller kommentarer och du måste ändra eller modifiera något, och efter att alla gått med på ändringarna kan det slås samman med master branch.<br> Det är därför Github flow är ett bra sätt att göra ett projekt och testa det innan det når produktion.
+   </p>
+  </div>
+
+
+  <div class="second-qus">
+   <h2>Flexbox</h2> <br>
+   <h3> Vad är Flexbox? Hur fungerar det?</h3><br>
+   <p>Flexbox utvecklades för att göra det lättare att anpassa innehåll med endimensionella layouter, antingen vertikalt eller horisontellt. Det är som en stor låda -  flex container (parent element) som innehåller mindre lådor - flex children (child element). Den stora fördelen med Flexbox att  få alla Flex children i en Flex container att ta upp lika mycket av den tillgängliga bredden/höjden, oavsett hur mycket  width/height som är tillgänglig. Till exempel, när du har skapat en div som är flex-container och gav den en property display flex vilket omvandlar dessa div-block till flex children. Jag använde det i min portfolio projekt.</p>
+  </div>
+
+
+  <div class="third-qus">
+   <h2>DOM (Document Object Model)</h2> <br>
+   <h3>Vad är DOM? Hur manipulerar man DOM?</h3><br>
+   <p>Det gör ändringar som att lägga till element eller ta bort element, så HTML-dokumentet som kommer att visas i webbläsaren ändras eller modifieras, och man kan manipulera DOM med javascript för att lägga till, ta bort och ändra delar av en webbplats. <br> Jag använde det i mitt tidigare projekt i inloggnings form i JavaScript fil så här:<br>
+     let formTag = document.querySelector("form");<br>
+    let btnAgain = document.createElement("button");<br>
+    let btnAgainText = document.createTextNode("Försöka Igen");<br>
+    btnAgain.appendChild(btnAgainText);<br>
+    formTag.appendChild(btnAgain);</p>
+  </div>
+
+
+  <div class="fourth-qus">
+   <h2>Fin kod</h2> <br>
+   <h3>Vad menas med det begreppet? Varför är det viktigt?</h3><br>
+   <p>Det är en tydlig och lättläst kod med användbara kommentarer, så att när du återgår till arbetet med den efter ett tag, även om det är under en längre period, så blir det lätt för dig, eller någon annan än du kanske arbeta på det, så det blir lätt  att förstå din kod. Vikten av organiserad kod ligger i det faktum att utvecklaren eller programmeraren efter ett tag kan glömma vissa saker som skrivits i koden, eller till exempel kan han glömma vad förkortningarna han skrev tidigare, och vilkas betydelse ibland kan vara oklart, såsom namnen på variabler eller funktioner, så hur om någon annan är den som läser din kod. Det är därför när vi skriver tydlig och lättförståelig kod som innehåller användbara kommentarer och underlättar förståelsen är detta väldigt viktigt i längden för dig och andra.</p>
+  </div>
+
+
+  <div class="fifth-qus">
+   <h2>Ramverk</h2> <br>
+   <h3>Inom webbutveckling använder man begreppet ramverk, vad är det? Beskriv vad det är och berätta lite mer om två valfria.</h3><br>
+   <p>Det är en kod skriven av programmerare och expertutvecklare som testade dess effektivitet och gjorde den tillgänglig för användning så att den sparar mycket tid. Det är en solid grund som du kan bygga dina grunder på så att du inte börjar om från början och kan lägga till den. Med andra ord, Ramverk är en struktur som du kan bygga ditt program på, och det är vanligt att man använder ramverk idag. <br> <b>Bootstrap</b> är ett gratis ramverk för frontend-utveckling med öppen källkod för att skapa webbplatser och webbappar. Bootstrap är designat för att möjliggöra responsiv utveckling av mobila webbsidor, och det är mest populära CSS-ramverket. <br> <b>AngularJS</b>  är ett front-end JavaScript-ramverk. Det är ett av de mest populära webbramverken och stöds av Google. Det låter dig använda HTML som ditt template language och låter dig utöka HTML syntax för att uttrycka din applikations komponenter tydligt och kortfattat. Några av de populära webbplatserna och applikationerna som använder AngularJS är Paypal,Snapchat, Amazon, Netflix.</p>
+  </div>
+  <h4>Maram Tahan.</h4>
+ </div><!--end of main-content-->
+ 
+</body>
+</html>
