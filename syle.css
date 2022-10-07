@@ -60,16 +60,19 @@ h4{
  body{
   background-position:center;
  background-size: cover;
- height: 3700px;
+ height: 3800px;
  background-repeat: no-repeat;
  }
  .main-content{
   background-color: #fff;
  margin: 6%;
- height: 3500px;
+ height: 3600px;
  
  }
  .header .name{
   font-size: 2rem;
+ }
+ .Referenser{
+  padding: 3%;
  }
 }
